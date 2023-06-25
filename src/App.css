@@ -31,3 +31,50 @@ nav {
 .hero-div p {
   font-size: 22px;
 }
+
+
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 18px 50px;
+}
+
+.card {
+    width: 300px;
+    font-size: 18px;
+    flex: 0 0 auto;         
+    display: flex;          
+    flex-direction: column; 
+    position: relative; 
+}
+
+.card--image {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+
+.card--star {
+   padding: 8px
+}
+
+.card--title {
+  font-weight: bolder;
+}
+
+.card span {
+  font-weight: bold;
+}
+
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
