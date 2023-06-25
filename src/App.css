@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Poppins;
+}
+
+nav {
+  height: 100px;
+  display: flex;
+  padding: 18px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.hero-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px;
+}
+
+.hero-div h1 {
+  font-size: 50px;
+}
+.hero-div img {
+  width: 60%;
+  margin: 18px;
+}
+.hero-div p {
+  font-size: 22px;
+}
